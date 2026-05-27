@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Tracker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav>
+        <div class="logo">🪙 CryptoTracker</div>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Login</a>
+            <a href="#">Register</a>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <h1>Track Crypto in Real Time</h1>
+        <p>Live prices, portfolio tracking and profit/loss — all in one place</p>
+    </div>
+
+    <div class="container">
+        <h2>Live Market Prices</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Coin</th>
+                    <th>Price (USD)</th>
+                    <th>24h Change</th>
+                    <th>Market Cap</th>
+                </tr>
+            </thead>
+            <tbody id="crypto-table">
+                <tr>
+                    <td colspan="5">Loading live prices...</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
