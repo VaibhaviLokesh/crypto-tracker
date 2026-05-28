@@ -7,10 +7,11 @@ import requests
 app = Flask(__name__)
 app.secret_key = 'crypto_secret_key'
 
-app.config['MYSQL_HOST'] = 'localhost'
+app.config['MYSQL_HOST'] = 'zephyr.proxy.rlwy.net'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'Vaibhavi@123'
-app.config['MYSQL_DB'] = 'crypto_tracker'
+app.config['MYSQL_PASSWORD'] = 'byrCpdYAKdjRscaRsFRdePTtQWXYWBUa'
+app.config['MYSQL_DB'] = 'railway'
+app.config['MYSQL_PORT'] = 25783
 
 mysql = MySQL(app)
 bcrypt = Bcrypt(app)
