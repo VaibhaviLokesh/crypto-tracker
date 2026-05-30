@@ -54,6 +54,45 @@ nav {
     color: #8b949e;
 }
 
+.hero-buttons {
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.hero-btn {
+    padding: 14px 35px;
+    background-color: #f0b90b;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.hero-btn:hover {
+    background-color: #d4a009;
+}
+
+.hero-btn-outline {
+    padding: 14px 35px;
+    background-color: transparent;
+    color: #f0b90b;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #f0b90b;
+    transition: all 0.3s;
+}
+
+.hero-btn-outline:hover {
+    background-color: #f0b90b;
+    color: #000000;
+}
+
 .container {
     max-width: 1100px;
     margin: 40px auto;
@@ -280,7 +319,7 @@ tr:hover {
 .delete-btn:hover {
     opacity: 0.7;
 }
-/* Chart Section */
+
 .chart-card {
     margin-top: 25px;
 }

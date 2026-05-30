@@ -10,16 +10,18 @@
     <nav>
         <div class="logo">🪙 CryptoTracker</div>
         <div class="nav-links">
-            <a href="#">Home</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Login</a>
-            <a href="#">Register</a>
+            <a href="{{ url_for('login') }}">Login</a>
+            <a href="{{ url_for('register') }}">Register</a>
         </div>
     </nav>
 
     <div class="hero">
         <h1>Track Crypto in Real Time</h1>
         <p>Live prices, portfolio tracking and profit/loss — all in one place</p>
+        <div class="hero-buttons">
+            <a href="{{ url_for('register') }}" class="hero-btn">Get Started</a>
+            <a href="{{ url_for('login') }}" class="hero-btn-outline">Login</a>
+        </div>
     </div>
 
     <div class="container">
