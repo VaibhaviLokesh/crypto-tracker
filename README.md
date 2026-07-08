@@ -47,49 +47,29 @@ A modern cryptocurrency portfolio tracker built using **Flask, MySQL, HTML, CSS,
 
 ---
 
-## 📸 Screenshots
-
 ### 🏠 Home Page
-
 ![Home](screenshots/home.png)
 
----
-
 ### 🔐 Login Page
-
 ![Login](screenshots/login.png)
 
----
-
 ### 📝 Register Page
-
 ![Register](screenshots/register.png)
 
----
-
 ### 📊 Portfolio Dashboard
-
 ![Dashboard](screenshots/dashboard.png)
 
----
+### 💼 Portfolio
+![Portfolio](screenshots/portfolio.png)
 
 ### 📈 7-Day Price History
-
 ![Graph](screenshots/graph.png)
 
----
-
 ### 💱 Crypto Converter
-
 ![Converter](screenshots/converter.png)
 
----
-
 ### 😱 Crypto Fear & Greed Index
-
 ![Fear & Greed](screenshots/fear-greed.png)
-
----
 
 ## 📂 Project Structure
 
